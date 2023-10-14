@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "debug": "DEBUG=local-lib:* npm run devstart",
-    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=local-lib:* npm run dev",
+    "dev": "nodemon ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
