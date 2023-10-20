@@ -1,6 +1,9 @@
 {
   "name": "local-lib",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "private": true,
   "scripts": {
     "serverstart": "DEBUG=local-lib:* npm run dev",
